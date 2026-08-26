@@ -18,57 +18,21 @@
 
 ## 2. I. NetWitness 점검 실습
 
-### 2.1 기본 점검 항목
+HEAD / ESA / Hybrid 서버에 대해 전달받은 점검서 양식을 기준으로
+수동 점검을 수행합니다.
 
-- hostname / IP
-- OS / uptime
-- CPU 사용률
-- Memory 사용률
-- Disk 사용률
-- 주요 서비스 동작 상태
-- 네트워크 상태
-- 로그 및 이상 징후
+점검 결과는 별도 제공된 **NetWitness 점검서 양식**에 작성하며,
+GitHub Repository에는 중복 작성하지 않습니다.
 
-### 2.2 서버별 점검 결과
+본 단계에서는 각 점검 항목의 의미와 확인 방법을 숙지하고,
+이후 자동화 및 Training Test에서 스스로 활용할 수 있어야 합니다.
 
-#### HEAD
+### 완료 조건
 
-| 항목 | 결과 | 확인 명령/방법 | 판단 |
-|---|---|---|---|
-| Hostname / IP |  |  |  |
-| OS / Uptime |  |  |  |
-| CPU |  |  |  |
-| Memory |  |  |  |
-| Disk |  |  |  |
-| Service |  |  |  |
-| Network |  |  |  |
-| Log / 이상 징후 |  |  |  |
-
-#### ESA
-
-| 항목 | 결과 | 확인 명령/방법 | 판단 |
-|---|---|---|---|
-| Hostname / IP |  |  |  |
-| OS / Uptime |  |  |  |
-| CPU |  |  |  |
-| Memory |  |  |  |
-| Disk |  |  |  |
-| Service |  |  |  |
-| Network |  |  |  |
-| Log / 이상 징후 |  |  |  |
-
-#### Hybrid
-
-| 항목 | 결과 | 확인 명령/방법 | 판단 |
-|---|---|---|---|
-| Hostname / IP |  |  |  |
-| OS / Uptime |  |  |  |
-| CPU |  |  |  |
-| Memory |  |  |  |
-| Disk |  |  |  |
-| Service |  |  |  |
-| Network |  |  |  |
-| Log / 이상 징후 |  |  |  |
+- [ ] HEAD 점검서 작성 완료
+- [ ] ESA 점검서 작성 완료
+- [ ] Hybrid 점검서 작성 완료
+- [ ] 각 점검 항목의 확인 방법 및 의미 숙지
 
 ### 2.3 수동 점검 시 사용한 명령어
 
