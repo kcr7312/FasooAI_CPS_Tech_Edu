@@ -1,4 +1,4 @@
-# Week 03 - NetWitness 운영 점검 자동화와 점검 이력 관리
+# Week 04 - NetWitness 운영 점검 자동화와 점검 이력 관리
 
 ## 1. 과제 개요
 
